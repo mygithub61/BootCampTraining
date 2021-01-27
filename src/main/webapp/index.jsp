@@ -25,8 +25,8 @@
             document.getElementById("numAnswer").innerHTML = numAnswer.toString();
         }
 
-        var myVar = setInterval(myTimer, 1000);
-        function myTimer() {
+        var varTimer = setInterval(myBootcampTimer, 1000);
+        function myBootcampTimer() {
             var dtNow = new Date();
             document.getElementById("timer").innerHTML = "Current Time: " + dtNow.toLocaleTimeString();
         }
