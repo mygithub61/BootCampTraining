@@ -1,1 +1,1 @@
-web: gunicorn -b :5000 --access-logfile - --error-logfile - build:app
+web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
