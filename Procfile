@@ -1,1 +1,1 @@
-web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
