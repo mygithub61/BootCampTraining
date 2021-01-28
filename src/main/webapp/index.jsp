@@ -31,7 +31,7 @@
             document.getElementById("timer").innerHTML = "Current Time: " + dtNow.toLocaleTimeString();
         }
     </script>
-        <h1>Hello World!</h1>
+        <h1>Hello World! Example to push an existing application to GitHub and deploy to Heroku</h1>
         <p id="timer"></p>
         <form name="frmFirst">
             <table>
